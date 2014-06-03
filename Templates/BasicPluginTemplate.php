@@ -3,7 +3,7 @@
 use ManiaControl\ManiaControl;
 use ManiaControl\Plugins\Plugin;
 
-// TODO: Maintain plugin class phpdoc
+// TODO: Maintain plugin class PHPDoc
 /**
  * Plugin Description
  *
@@ -58,6 +58,7 @@ class BasicPluginTemplate implements Plugin {
 	 * @see \ManiaControl\Plugins\Plugin::getDescription()
 	 */
 	public static function getDescription() {
+		return 'Plugin Description';
 		// TODO: Implement getDescription() method.
 	}
 
