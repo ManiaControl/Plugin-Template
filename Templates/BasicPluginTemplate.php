@@ -10,7 +10,7 @@ use ManiaControl\Plugins\Plugin;
  * @author  Template Author
  * @version 1.0
  */
-class PluginTemplate implements Plugin {
+class BasicPluginTemplate implements Plugin {
 	/*
 	 * Constants
 	 */
