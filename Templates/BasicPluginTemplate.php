@@ -1,5 +1,8 @@
 <?php
 
+// TODO: Maintain plugin namespace using your name or something similar
+namespace AuthorName;
+
 use ManiaControl\ManiaControl;
 use ManiaControl\Plugins\Plugin;
 
