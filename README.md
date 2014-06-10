@@ -1,4 +1,4 @@
 Plugin-Template
 ===============
 
-Raw Plugin File to use to create new ManiaControl Plugins
+Raw Plugin File to use for creating new ManiaControl Plugins
