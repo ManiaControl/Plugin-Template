@@ -30,6 +30,28 @@ class BasicPluginTemplate implements Plugin {
 	private $maniaControl = null;
 
 	/**
+	 * @see \ManiaControl\Plugins\Plugin::prepare()
+	 */
+	public static function prepare(ManiaControl $maniaControl) {
+		// TODO: Implement prepare() method.
+	}
+
+	/**
+	 * @see \ManiaControl\Plugins\Plugin::load()
+	 */
+	public function load(ManiaControl $maniaControl) {
+		$this->maniaControl = $maniaControl;
+		// TODO: Implement load() method.
+	}
+
+	/**
+	 * @see \ManiaControl\Plugins\Plugin::unload()
+	 */
+	public function unload() {
+		// TODO: Implement unload() method.
+	}
+	
+	/**
 	 * @see \ManiaControl\Plugins\Plugin::getId()
 	 */
 	public static function getId() {
@@ -63,27 +85,5 @@ class BasicPluginTemplate implements Plugin {
 	public static function getDescription() {
 		return 'Plugin Description';
 		// TODO: Implement getDescription() method.
-	}
-
-	/**
-	 * @see \ManiaControl\Plugins\Plugin::prepare()
-	 */
-	public static function prepare(ManiaControl $maniaControl) {
-		// TODO: Implement prepare() method.
-	}
-
-	/**
-	 * @see \ManiaControl\Plugins\Plugin::load()
-	 */
-	public function load(ManiaControl $maniaControl) {
-		$this->maniaControl = $maniaControl;
-		// TODO: Implement load() method.
-	}
-
-	/**
-	 * @see \ManiaControl\Plugins\Plugin::unload()
-	 */
-	public function unload() {
-		// TODO: Implement unload() method.
-	}
+	}	
 }
