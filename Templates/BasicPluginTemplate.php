@@ -48,7 +48,7 @@ class BasicPluginTemplate implements Plugin {
 	 * @see \ManiaControl\Plugins\Plugin::unload()
 	 */
 	public function unload() {
-		// TODO: Implement unload() method.
+		$this->maniaControl = null;
 	}
 	
 	/**
@@ -84,6 +84,5 @@ class BasicPluginTemplate implements Plugin {
 	 */
 	public static function getDescription() {
 		return 'Plugin Description';
-		// TODO: Implement getDescription() method.
 	}	
 }
